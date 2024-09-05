@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_accountInfo"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="@string/menu_accountInfo" />
+        <item
+            android:id="@+id/nav_addEmail"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/menu_addEmail" />
+        <item
+            android:id="@+id/nav_addPhone"
+            android:icon="@drawable/ic_settings_phone_black_24dp"
+            android:title="@string/menu_addPhone" />
+        <item
+            android:id="@+id/nav_lastSendReport"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/menu_lastSendReport" />
+        <item
+            android:id="@+id/nav_monthlyReport"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+            android:title="@string/menu_monthlyReport" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_tools"-->
+<!--            android:icon="@drawable/ic_menu_manage"-->
+<!--            android:title="@string/menu_tools" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+                android:title="@string/menu_logOut" />
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+        </menu>
+    </item>
+
+</menu>

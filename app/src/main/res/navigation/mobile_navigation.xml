@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fyp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_accountInfo"
+        android:name="com.example.fyp.ui.accountInfo.accountInfoFragment"
+        android:label="@string/menu_accountInfo"
+        tools:layout="@layout/account_info_fragment" />
+
+    <fragment
+        android:id="@+id/nav_addEmail"
+        android:name="com.example.fyp.ui.addEmail.addEmailFragment"
+        android:label="@string/menu_addEmail"
+        tools:layout="@layout/add_email_fragment" />
+
+    <fragment
+        android:id="@+id/nav_addPhone"
+        android:name="com.example.fyp.ui.addPhone.addPhoneFragment"
+        android:label="@string/menu_addPhone"
+        tools:layout="@layout/add_phone_fragment" />
+
+    <fragment
+        android:id="@+id/nav_lastSendReport"
+        android:name="com.example.fyp.ui.lastSendReport.lastSendReportFragment"
+        android:label="@string/menu_lastSendReport"
+        tools:layout="@layout/last_send_report_fragment" />
+
+    <fragment
+        android:id="@+id/nav_monthlyReport"
+        android:name="com.example.fyp.ui.monthlyReports.monthlyReportsFragment"
+        android:label= "@string/menu_monthlyReport"
+        tools:layout="@layout/monthly_reports_fragment" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.fyp.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FYP</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mohsin Arif</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_accountInfo">Edit Account</string>
+    <string name="menu_addEmail">Add Email</string>
+    <string name="menu_addPhone">Add Phone</string>
+    <string name="menu_lastSendReport">Last Send Report</string>
+    <string name="menu_monthlyReport">Monthly Reports</string>
+    <string name="menu_logOut">Log Out</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="pick_date">Date</string>
+    <string-array name="months_array">
+        <item>Please Select Month</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="reports_array">
+    <item>Please Select Report</item>
+    <item>Pulse Report</item>
+    <item>Temperature Report</item>
+    <item>Altitude Report</item>
+</string-array>
+</resources>
